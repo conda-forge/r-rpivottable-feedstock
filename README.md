@@ -1,11 +1,11 @@
-About r-rpivottable
-===================
+About r-rpivottable-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rpivottable-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/smartinsightsfromdata, http://smartinsightsfromdata.github.io
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rpivottable-feedstock/blob/main/LICENSE.txt)
 
 Summary: Build powerful pivot tables (aka Pivot Grid, Pivot Chart, Cross-Tab) and dynamically slice & dice / drag 'n' drop your data. 'rpivotTable' is a wrapper of 'pivottable', a powerful open-source Pivot Table library implemented in 'JavaScript' by Nicolas Kruchten. Aligned to 'pivottable' v2.19.0.
 
