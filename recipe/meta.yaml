@@ -1,6 +1,5 @@
 {% set version = "0.3.0" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-rpivottable
@@ -13,8 +12,7 @@ source:
   sha256: 65bbd486ba3e7c90883b5819fea79401d46310fa9ac0863670dc7c6b09d7b059
 
 build:
-  merge_build_host: true  # [win]
-  number: 4
+  number: 5
   noarch: generic
 
   rpaths:
