@@ -1,4 +1,4 @@
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rpivotTable_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rpivotTable/rpivotTable_{{ version }}.tar.gz
-  sha256: 65bbd486ba3e7c90883b5819fea79401d46310fa9ac0863670dc7c6b09d7b059
+  sha256: c5cb25dad69919ca02e13bbde94327f2d6abd285d82ec49f43af6876d71f1b2c
 
 build:
-  number: 6
+  number: 0
   noarch: generic
 
   rpaths:
